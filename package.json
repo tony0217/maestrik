@@ -1,0 +1,36 @@
+{
+  "name": "prueba_maestrik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js --exec babel-node",
+    "start-babel": "node_modules/.bin/nodemon -- node_modules/.bin/babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Anthony Henriquez",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.9.6",
+    "apollo-server-express": "^2.9.6",
+    "cookie-parser": "latest",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "graphql": "^14.5.8",
+    "graphql-tools": "^4.0.5",
+    "graphql-type-long": "^0.1.1",
+    "localStorage": "^1.0.4",
+    "mongodb-memory-server": "^5.2.8",
+    "mongoose": "^5.7.5",
+    "morgan": "~1.5.2",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "nodemon": "^1.19.3"
+  }
+}
