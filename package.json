@@ -12,7 +12,7 @@
   "author": "Anthony Henriquez",
   "license": "MIT",
   "dependencies": {
-    "apollo-server": "^2.9.6",
+    "apollo-server": "^2.25.3",
     "apollo-server-express": "^2.9.6",
     "cookie-parser": "latest",
     "express": "^4.17.1",
